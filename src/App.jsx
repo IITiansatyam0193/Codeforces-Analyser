@@ -87,7 +87,7 @@ function App() {
           setTagVsCountPractice([]);
           setDataTimePeriod([]);
           setUserName(event.target.Username.value);
-		  event.target.Username.value = "";
+		      event.target.Username.value = "";
           setLoading(true);
         }}
       >
